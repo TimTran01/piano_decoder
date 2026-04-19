@@ -1,0 +1,12 @@
+set_property -dict { PACKAGE_PIN R19 IOSTANDARD LVCMOS33 } [get_ports { ac_bclk }]
+set_property -dict { PACKAGE_PIN R17 IOSTANDARD LVCMOS33 } [get_ports { ac_mclk }]
+set_property -dict { PACKAGE_PIN P18 IOSTANDARD LVCMOS33 } [get_ports { ac_muten }]
+set_property -dict { PACKAGE_PIN R18 IOSTANDARD LVCMOS33 } [get_ports { ac_pbdat }]
+set_property -dict { PACKAGE_PIN T19 IOSTANDARD LVCMOS33 } [get_ports { ac_pblrc }]
+set_property -dict { PACKAGE_PIN R16 IOSTANDARD LVCMOS33 } [get_ports { ac_recdat }]
+set_property -dict { PACKAGE_PIN Y18 IOSTANDARD LVCMOS33 } [get_ports { ac_reclrc }]
+set_property -dict { PACKAGE_PIN N18 IOSTANDARD LVCMOS33 } [get_ports { ac_iic_scl_io }]
+set_property -dict { PACKAGE_PIN N17 IOSTANDARD LVCMOS33 } [get_ports { ac_iic_sda_io }]
+
+set_property -dict { PACKAGE_PIN F16 IOSTANDARD LVCMOS33 PULLUP true } [get_ports { eth_int_pu_b[0] }]
+set_property -dict { PACKAGE_PIN E17 IOSTANDARD LVCMOS33 } [get_ports { eth_rst_b[0] }]

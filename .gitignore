@@ -1,0 +1,61 @@
+# Local tooling metadata
+.codex/
+.claude/
+.beads/
+CLAUDE.md
+
+# Python
+__pycache__/
+*.pyc
+
+# Vivado / XSim generated data
+.Xil/
+.xsim/
+*.jou
+*.log
+*.backup.jou
+*.backup.log
+*.pb
+*.rpx
+*.rpt
+*.dcp
+*.str
+*.lpr
+*.wpc
+__synthesis_is_running__
+
+final_project_v2.cache/
+final_project_v2.gen/
+final_project_v2.hw/
+final_project_v2.ip_user_files/
+final_project_v2.runs/
+final_project_v2.sim/
+final_project_v2.tmp/
+final_project_v2.srcs/utils_1/
+final_project_v2.srcs/sources_1/bd/design_1/design_1.bda
+final_project_v2.srcs/sources_1/bd/design_1/ui/
+
+# Packaged IP build byproducts
+ip_repo/*/*.cache/
+ip_repo/*/*.hw/
+ip_repo/*/*.xpr
+
+# Vitis generated data
+sw/.lock
+sw/.peers.ini
+sw/.repo.yaml
+sw/.theia/
+sw/.vitisWorkspace.json
+sw/logs/
+sw/final_proj_platform/
+sw/**/_ide/
+sw/**/build/
+sw/**/compile_commands.json
+sw/**/.cache/
+sw/**/.clangd
+sw/**/vitis-comp.json
+
+# Misc generated exports
+*.xsa
+ip_upgrade.log
+dfx_runtime.txt
